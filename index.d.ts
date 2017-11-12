@@ -1,6 +1,5 @@
-import { Library } from "@wowts/tslib";
-export interface AceConfig {
+export declare class AceConfig {
     RegisterOptionsTable(appName: string, options: any, title?: string): void;
 }
-declare const lib: Library<AceConfig>;
+declare const lib: AceConfig;
 export default lib;
